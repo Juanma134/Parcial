@@ -1,0 +1,20 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">name</th>
+        <th scope="col">email</th>
+        <th scope="col">gender</th>
+        <th scope="col">status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ng-for="let item of lista">
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.gender}}</td>
+        <td>{{item.status}}</td>
+      </tr>
+    </tbody>
+  </table>
